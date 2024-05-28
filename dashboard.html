@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/1182090065233584148/1213525705732661309/PNG_Logo_White_-_Betrayal.png?ex=65f5cae2&is=65e355e2&hm=e757790f2e771eb653c2384e8f33a3c5f5ea73295c1356eb6090bdcf5e1d8c00&"/>
+        <meta name="viewport" content="width=device-width"/>
+        <link href="./_app/immutable/assets/0.94ebf1cd.css" rel="stylesheet">
+        <link href="./_app/immutable/assets/4.a43b69f1.css" rel="stylesheet">
+    </head>
+    <body data-sveltekit-preload-data="hover">
+        <div style="display: contents">
+            <main class="svelte-1rvr5aa">
+                <form id="edit-form" class="edit-form svelte-1rvr5aa" action="?/edit" method="POST">
+                    <div class="form-group svelte-1rvr5aa">
+                        <label for="title" class="label title svelte-1rvr5aa">Link</label>
+                        <input name="slug" id="title" class="input svelte-1rvr5aa" value="vastgen">
+                    </div>
+                    <div class="form-group svelte-1rvr5aa">
+                        <label for="title" class="label title svelte-1rvr5aa">Title</label>
+                        <input name="title" id="title" class="input svelte-1rvr5aa" value="efef">
+                    </div>
+                    <div class="form-group svelte-1rvr5aa">
+                        <label for="description" class="label title svelte-1rvr5aa">Description</label>
+                        <textarea name="description" id="description" class="input svelte-1rvr5aa">efefef</textarea>
+                    </div>
+                    <div class="form-group svelte-1rvr5aa">
+                        <div class="column-viewer svelte-1rvr5aa">
+                            <div class="left-column svelte-1rvr5aa">
+                                <label for="avatar" class="label title svelte-1rvr5aa">Avatar URL</label>
+                                <input name="avatar" id="avatar" class="input svelte-1rvr5aa" type="url" value="">
+                            </div>
+                            <div class="right-column svelte-1rvr5aa">
+                                <div class="image-preview-wrapper svelte-1rvr5aa">
+                                    <img src="" class="image-preview svelte-1rvr5aa" alt="avatar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group svelte-1rvr5aa">
+                        <div class="column-viewer svelte-1rvr5aa">
+                            <div class="left-column svelte-1rvr5aa">
+                                <label for="background" class="label title svelte-1rvr5aa">Background URL</label>
+                                <input name="background" id="background" class="input svelte-1rvr5aa" type="url" value="">
+                            </div>
+                            <div class="right-column svelte-1rvr5aa">
+                                <div class="image-preview-wrapper svelte-1rvr5aa">
+                                    <img src="" class="image-preview svelte-1rvr5aa" alt="background">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group svelte-1rvr5aa">
+                        <div class="column-viewer svelte-1rvr5aa">
+                            <div class="left-column svelte-1rvr5aa">
+                                <label for="music" class="label title svelte-1rvr5aa">Music URL</label>
+                                <input name="music" id="music" class="input svelte-1rvr5aa" type="url" value="">
+                            </div>
+                            <div class="right-column svelte-1rvr5aa">
+                                <div class="image-preview-wrapper svelte-1rvr5aa">
+                                    <audio src="" controls class="music-preview svelte-1rvr5aa"></audio>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group svelte-1rvr5aa">
+                        <div class="column-viewer svelte-1rvr5aa">
+                            <div class="left-column svelte-1rvr5aa">
+                                <label for="presence" class="label title svelte-1rvr5aa">Discord Presence</label>
+                                <input name="presence" id="presence" class="input svelte-1rvr5aa" value="493466600188674048">
+                            </div>
+                            <div class="right-column svelte-1rvr5aa">
+                                <div class="image-preview-wrapper svelte-1rvr5aa">
+                                    <img src="https://cdn.discordapp.com/embed/avatars/1.png" class="image-preview svelte-1rvr5aa" alt="avatar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group svelte-1rvr5aa">
+                        <label for="socials" class="label title svelte-1rvr5aa">Socials</label>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="twitter.com/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#1DA1F2" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #1DA1F2);">
+                                    <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">twitter.com/</span>
+                                <input name="social_twitter" class="input svelte-1rvr5aa" placeholder="twitter" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="instagram.com/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#E1306C" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #E1306C);">
+                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">instagram.com/</span>
+                                <input name="social_instagram" class="input svelte-1rvr5aa" placeholder="instagram" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="twitch.tv/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#9146FF" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #9146FF);">
+                                    <path d="M391.17 103.47h-38.63v109.7h38.63ZM285 103h-38.63v109.75H285ZM120.83 0 24.31 91.42v329.16h115.83V512l96.53-91.42h77.25L487.69 256V0Zm328.24 237.75-77.22 73.12h-77.24l-67.6 64v-64h-86.87V36.58h308.93Z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">twitch.tv/</span>
+                                <input name="social_twitch" class="input svelte-1rvr5aa" placeholder="twitch" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="youtube.com/@" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#FF0000" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #FF0000);">
+                                    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">youtube.com/@</span>
+                                <input name="social_youtube" class="input svelte-1rvr5aa" placeholder="youtube" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="github.com/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="#333" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #333);">
+                                    <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">github.com/</span>
+                                <input name="social_github" class="input svelte-1rvr5aa" placeholder="github" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="discord.gg/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" fill="#7289DA" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #7289DA);">
+                                    <path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">discord.gg/</span>
+                                <input name="social_discord" class="input svelte-1rvr5aa" placeholder="discord" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="tiktok.com/@" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#CCC" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #CCC);">
+                                    <path d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121.18 121.18 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">tiktok.com/@</span>
+                                <input name="social_tiktok" class="input svelte-1rvr5aa" placeholder="tiktok" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="t.me/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="#0088CC" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #0088CC);">
+                                    <path d="M248 8C111.033 8 0 119.033 0 256s111.033 248 248 248 248-111.033 248-248S384.967 8 248 8Zm114.952 168.66c-3.732 39.215-19.881 134.378-28.1 178.3-3.476 18.584-10.322 24.816-16.948 25.425-14.4 1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25 5.342-39.5 3.652-3.793 67.107-61.51 68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608 69.142-14.845 10.194-26.894 9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7 18.45-13.7 108.446-47.248 144.628-62.3c68.872-28.647 83.183-33.623 92.511-33.789 2.052-.034 6.639.474 9.61 2.885a10.452 10.452 0 0 1 3.53 6.716 43.765 43.765 0 0 1 .417 9.769Z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">t.me/</span>
+                                <input name="social_telegram" class="input svelte-1rvr5aa" placeholder="telegram" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="paypal.me/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="#003087" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #003087);">
+                                    <path d="M111.4 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.3c-7.6 0-13.1-6.6-12.1-13.9L58.8 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2zM357.1 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">paypal.me/</span>
+                                <input name="social_paypal" class="input svelte-1rvr5aa" placeholder="paypal" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="www.blockchain.com/explorer/addresses/btc/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#F7931A" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #F7931A);">
+                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zm-141.651-35.33c4.937-32.999-20.191-50.739-54.55-62.573l11.146-44.702-27.213-6.781-10.851 43.524c-7.154-1.783-14.502-3.464-21.803-5.13l10.929-43.81-27.198-6.781-11.153 44.686c-5.922-1.349-11.735-2.682-17.377-4.084l.031-.14-37.53-9.37-7.239 29.062s20.191 4.627 19.765 4.913c11.022 2.751 13.014 10.044 12.68 15.825l-12.696 50.925c.76.194 1.744.473 2.829.907-.907-.225-1.876-.473-2.876-.713l-17.796 71.338c-1.349 3.348-4.767 8.37-12.471 6.464.271.395-19.78-4.937-19.78-4.937l-13.51 31.147 35.414 8.827c6.588 1.651 13.045 3.379 19.4 5.006l-11.262 45.213 27.182 6.781 11.153-44.733a1038.209 1038.209 0 0 0 21.687 5.627l-11.115 44.523 27.213 6.781 11.262-45.128c46.404 8.781 81.299 5.239 95.986-36.727 11.836-33.79-.589-53.281-25.004-65.991 17.78-4.098 31.174-15.792 34.747-39.949zm-62.177 87.179c-8.41 33.79-65.308 15.523-83.755 10.943l14.944-59.899c18.446 4.603 77.6 13.717 68.811 48.956zm8.417-87.667c-7.673 30.736-55.031 15.12-70.393 11.292l13.548-54.327c15.363 3.828 64.836 10.973 56.845 43.035z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">www.blockchain.com/explorer/addresses/btc/</span>
+                                <input name="social_bitcoin" class="input svelte-1rvr5aa" placeholder="bitcoin" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="www.blockchain.com/explorer/addresses/eth/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="#3C3C3D" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #3C3C3D);">
+                                    <path d="M311.9 260.8 160 353.6 8 260.8 160 0l151.9 260.8zM160 383.4 8 290.6 160 512l152-221.4-152 92.8z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">www.blockchain.com/explorer/addresses/eth/</span>
+                                <input name="social_ethereum" class="input svelte-1rvr5aa" placeholder="ethereum" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="live.blockcypher.com/ltc/address/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="#CCC" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #CCC);">
+                                    <path d="M128 64c0-17.7-14.3-32-32-32S64 46.3 64 64v149.6l-40.8 11.6c-17 4.9-26.8 22.6-22 39.6s22.6 26.8 39.6 22l23.2-6.7V448c0 17.7 14.3 32 32 32h256c17.7 0 32-14.3 32-32s-14.3-32-32-32H128V261.9l136.8-39.1c17-4.9 26.8-22.6 22-39.6s-22.6-26.8-39.6-22L128 195.3V64z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">live.blockcypher.com/ltc/address/</span>
+                                <input name="social_litecoin" class="input svelte-1rvr5aa" placeholder="litecoin" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="steamcommunity.com/profiles/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="#CCC" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #CCC);">
+                                    <path d="M496 256c0 137-111.2 248-248.4 248-113.8 0-209.6-76.3-239-180.4l95.2 39.3c6.4 32.1 34.9 56.4 68.9 56.4 39.2 0 71.9-32.4 70.2-73.5l84.5-60.2c52.1 1.3 95.8-40.9 95.8-93.5 0-51.6-42-93.5-93.7-93.5s-93.7 42-93.7 93.5v1.2L176.6 279c-15.5-.9-30.7 3.4-43.5 12.1L0 236.1C10.2 108.4 117.1 8 247.6 8 384.8 8 496 119 496 256zM155.7 384.3l-30.5-12.6a52.79 52.79 0 0 0 27.2 25.8c26.9 11.2 57.8-1.6 69-28.4 5.4-13 5.5-27.3.1-40.3-5.4-13-15.5-23.2-28.5-28.6-12.9-5.4-26.7-5.2-38.9-.6l31.5 13c19.8 8.2 29.2 30.9 20.9 50.7-8.3 19.9-31 29.2-50.8 21zm173.8-129.9c-34.4 0-62.4-28-62.4-62.3s28-62.3 62.4-62.3 62.4 28 62.4 62.3-27.9 62.3-62.4 62.3zm.1-15.6c25.9 0 46.9-21 46.9-46.8 0-25.9-21-46.8-46.9-46.8s-46.9 21-46.9 46.8c.1 25.8 21.1 46.8 46.9 46.8z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">steamcommunity.com/profiles/</span>
+                                <input name="social_steam" class="input svelte-1rvr5aa" placeholder="steam" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="soundcloud.com/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" fill="#FF3300" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #FF3300);">
+                                    <path d="m111.4 256.3 5.8 65-5.8 68.3c-.3 2.5-2.2 4.4-4.4 4.4s-4.2-1.9-4.2-4.4l-5.6-68.3 5.6-65c0-2.2 1.9-4.2 4.2-4.2 2.2 0 4.1 2 4.4 4.2zm21.4-45.6c-2.8 0-4.7 2.2-5 5l-5 105.6 5 68.3c.3 2.8 2.2 5 5 5 2.5 0 4.7-2.2 4.7-5l5.8-68.3-5.8-105.6c0-2.8-2.2-5-4.7-5zm25.5-24.1c-3.1 0-5.3 2.2-5.6 5.3l-4.4 130 4.4 67.8c.3 3.1 2.5 5.3 5.6 5.3 2.8 0 5.3-2.2 5.3-5.3l5.3-67.8-5.3-130c0-3.1-2.5-5.3-5.3-5.3zM7.2 283.2c-1.4 0-2.2 1.1-2.5 2.5L0 321.3l4.7 35c.3 1.4 1.1 2.5 2.5 2.5s2.2-1.1 2.5-2.5l5.6-35-5.6-35.6c-.3-1.4-1.1-2.5-2.5-2.5zm23.6-21.9c-1.4 0-2.5 1.1-2.5 2.5l-6.4 57.5 6.4 56.1c0 1.7 1.1 2.8 2.5 2.8s2.5-1.1 2.8-2.5l7.2-56.4-7.2-57.5c-.3-1.4-1.4-2.5-2.8-2.5zm25.3-11.4c-1.7 0-3.1 1.4-3.3 3.3L47 321.3l5.8 65.8c.3 1.7 1.7 3.1 3.3 3.1 1.7 0 3.1-1.4 3.1-3.1l6.9-65.8-6.9-68.1c0-1.9-1.4-3.3-3.1-3.3zm25.3-2.2c-1.9 0-3.6 1.4-3.6 3.6l-5.8 70 5.8 67.8c0 2.2 1.7 3.6 3.6 3.6s3.6-1.4 3.9-3.6l6.4-67.8-6.4-70c-.3-2.2-2-3.6-3.9-3.6zm241.4-110.9c-1.1-.8-2.8-1.4-4.2-1.4-2.2 0-4.2.8-5.6 1.9-1.9 1.7-3.1 4.2-3.3 6.7v.8l-3.3 176.7 1.7 32.5 1.7 31.7c.3 4.7 4.2 8.6 8.9 8.6s8.6-3.9 8.6-8.6l3.9-64.2-3.9-177.5c-.4-3-2-5.8-4.5-7.2zm-26.7 15.3c-1.4-.8-2.8-1.4-4.4-1.4s-3.1.6-4.4 1.4c-2.2 1.4-3.6 3.9-3.6 6.7l-.3 1.7-2.8 160.8s0 .3 3.1 65.6v.3c0 1.7.6 3.3 1.7 4.7 1.7 1.9 3.9 3.1 6.4 3.1 2.2 0 4.2-1.1 5.6-2.5 1.7-1.4 2.5-3.3 2.5-5.6l.3-6.7 3.1-58.6-3.3-162.8c-.3-2.8-1.7-5.3-3.9-6.7zm-111.4 22.5c-3.1 0-5.8 2.8-5.8 6.1l-4.4 140.6 4.4 67.2c.3 3.3 2.8 5.8 5.8 5.8 3.3 0 5.8-2.5 6.1-5.8l5-67.2-5-140.6c-.2-3.3-2.7-6.1-6.1-6.1zm376.7 62.8c-10.8 0-21.1 2.2-30.6 6.1-6.4-70.8-65.8-126.4-138.3-126.4-17.8 0-35 3.3-50.3 9.4-6.1 2.2-7.8 4.4-7.8 9.2v249.7c0 5 3.9 8.6 8.6 9.2h218.3c43.3 0 78.6-35 78.6-78.3.1-43.6-35.2-78.9-78.5-78.9zm-296.7-60.3c-4.2 0-7.5 3.3-7.8 7.8l-3.3 136.7 3.3 65.6c.3 4.2 3.6 7.5 7.8 7.5 4.2 0 7.5-3.3 7.5-7.5l3.9-65.6-3.9-136.7c-.3-4.5-3.3-7.8-7.5-7.8zm-53.6-7.8c-3.3 0-6.4 3.1-6.4 6.7l-3.9 145.3 3.9 66.9c.3 3.6 3.1 6.4 6.4 6.4 3.6 0 6.4-2.8 6.7-6.4l4.4-66.9-4.4-145.3c-.3-3.6-3.1-6.7-6.7-6.7zm26.7 3.4c-3.9 0-6.9 3.1-6.9 6.9L227 321.3l3.9 66.4c.3 3.9 3.1 6.9 6.9 6.9s6.9-3.1 6.9-6.9l4.2-66.4-4.2-141.7c0-3.9-3-6.9-6.9-6.9z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">soundcloud.com/</span>
+                                <input name="social_soundcloud" class="input svelte-1rvr5aa" placeholder="soundcloud" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="open.spotify.com/artist/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="#1DB954" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #1DB954);">
+                                    <path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">open.spotify.com/artist/</span>
+                                <input name="social_spotify" class="input svelte-1rvr5aa" placeholder="spotify" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="cash.app/" class="svelte-1rvr5aa">
+                                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" fill="#00D632" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #00D632);">
+                                    <path d="M9 0h22a9 9 0 0 1 9 9v22a9 9 0 0 1-9 9H9a9 9 0 0 1-9-9V9a9 9 0 0 1 9-9zm12.305 13.743c1.865 0 3.653.755 4.821 1.792a.734.734 0 0 0 1.015-.02l1.39-1.41a.725.725 0 0 0-.034-1.056 10.989 10.989 0 0 0-3.726-2.095l.436-2.076A.728.728 0 0 0 24.494 8h-2.686c-.343 0-.64.24-.712.576l-.392 1.846c-3.57.179-6.597 1.96-6.597 5.616 0 3.164 2.504 4.52 5.146 5.46 2.504.938 3.825 1.286 3.825 2.607 0 1.357-1.32 2.156-3.269 2.156-1.775 0-3.635-.586-5.079-2.009a.725.725 0 0 0-1.019-.002l-1.493 1.473a.732.732 0 0 0 .004 1.047c1.165 1.13 2.64 1.948 4.322 2.407l-.41 1.923a.729.729 0 0 0 .707.88l2.69.02a.727.727 0 0 0 .718-.578l.388-1.85c4.276-.263 6.892-2.587 6.892-5.988 0-3.13-2.607-4.451-5.772-5.529-1.808-.661-3.373-1.113-3.373-2.469 0-1.32 1.46-1.843 2.92-1.843z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">cash.app/</span>
+                                <input name="social_cashapp" class="input svelte-1rvr5aa" placeholder="cashapp" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="namemc.com/profile/" class="svelte-1rvr5aa">
+                                <svg style="filter: drop-shadow(0 0 0.2rem #FFF);" viewBox="-8 -8 16 16" shape-rendering="crispEdges" class="align-top" width="24" height="24" fill="#FFF">
+                                    <path style="fill:#fff" d="M-5-5h8v2h2v8H3v-8h-6v8h-2"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">namemc.com/profile/</span>
+                                <input name="social_namemc" class="input svelte-1rvr5aa" placeholder="namemc" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="reddit.com/user/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FF4500" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #FF4500);">
+                                    <path d="M14.238 15.348a.215.215 0 0 1 0 .306c-.465.462-1.194.687-2.231.687l-.008-.002-.008.002c-1.036 0-1.766-.225-2.231-.688a.214.214 0 0 1 0-.305.219.219 0 0 1 .307 0c.379.377 1.008.561 1.924.561l.008.002.008-.002c.915 0 1.544-.184 1.924-.561a.219.219 0 0 1 .307 0zm-3.44-2.418a.922.922 0 0 0-1.845 0c0 .506.414.918.923.918a.92.92 0 0 0 .922-.918zM24 12c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12zm-5-.129a1.548 1.548 0 0 0-2.624-1.108c-1.056-.695-2.485-1.137-4.066-1.194l.865-2.724 2.343.549-.003.034c0 .696.569 1.262 1.268 1.262.699 0 1.267-.566 1.267-1.262a1.266 1.266 0 0 0-2.446-.458l-2.525-.592a.216.216 0 0 0-.257.145l-.965 3.038c-1.656.02-3.155.466-4.258 1.181A1.546 1.546 0 0 0 5 11.871c0 .566.311 1.056.768 1.325-.03.164-.05.331-.05.5 0 2.281 2.805 4.137 6.253 4.137s6.253-1.856 6.253-4.137c0-.16-.017-.317-.044-.472.486-.261.82-.766.82-1.353zm-4.872.141a.921.921 0 0 0-.922.919.921.921 0 0 0 1.844 0 .921.921 0 0 0-.922-.919z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">reddit.com/user/</span>
+                                <input name="social_reddit" class="input svelte-1rvr5aa" placeholder="reddit" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="mailto:" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#1e88e5" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #1e88e5);">
+                                    <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48H48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0L0 176z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">mailto:</span>
+                                <input name="social_email" class="input svelte-1rvr5aa" placeholder="email" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="kick.com/" class="svelte-1rvr5aa">
+                                <svg viewBox="0 0 78 22" xmlns="http://www.w3.org/2000/svg" class="-mb-1.5" fill="#FFF" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #FFF);">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h8.264v5.713h2.755V2.857h2.754V0h8.264v8.57h-2.755v2.857h-2.754v2.856h2.755v2.857h2.754v8.57h-8.264v-2.857H11.02v-2.856H8.264v5.713H0V0Zm55.093 0h8.264v5.713h2.754V2.857h2.755V0h8.264v8.57h-2.755v2.857h-2.754v2.856h2.754v2.857h2.755v8.57h-8.264v-2.857h-2.755v-2.856h-2.754v5.713h-8.264V0ZM24.792 0h8.264v25.71h-8.264V0Zm19.282 0h-5.509v2.857H35.81v19.996h2.755v2.857h13.773v-8.57h-8.264V8.57h8.264V0h-8.264Z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">kick.com/</span>
+                                <input name="social_kick" class="input svelte-1rvr5aa" placeholder="kick" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="ko-fi.com/" class="svelte-1rvr5aa">
+                                <svg aria-labelledby="simpleicons-ko-fi-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#29ABE0" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #29ABE0);">
+                                    <path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">ko-fi.com/</span>
+                                <input name="social_kofi" class="input svelte-1rvr5aa" placeholder="kofi" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="tumblr.com/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" xml:space="preserve" fill="#35465C" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #35465C);">
+                                    <path d="M210.857 197.545a4.999 4.999 0 0 0-5.119.223c-11.62 7.638-23.4 11.511-35.016 11.511-6.242 0-11.605-1.394-16.416-4.275-3.27-1.936-6.308-5.321-7.397-8.263-1.057-2.797-1.045-10.327-1.029-20.748l.005-63.543h52.795a5 5 0 0 0 5-5V62.802a5 5 0 0 0-5-5h-52.795V5a5 5 0 0 0-5-5h-35.566a5.001 5.001 0 0 0-4.964 4.397c-1.486 12.229-4.258 22.383-8.247 30.196-3.89 7.7-9.153 14.401-15.651 19.925-5.206 4.44-14.118 8.736-26.49 12.769a5 5 0 0 0-3.45 4.754v35.41a5 5 0 0 0 5 5H80.47v82.666c0 12.181 1.292 21.347 3.952 28.026 2.71 6.785 7.521 13.174 14.303 18.993 6.671 5.716 14.79 10.187 24.158 13.298 9.082 2.962 16.315 4.567 28.511 4.567 10.31 0 20.137-1.069 29.213-3.179 8.921-2.082 19.017-5.761 30.008-10.934a5 5 0 0 0 2.871-4.524v-39.417a5.006 5.006 0 0 0-2.629-4.402z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">tumblr.com/</span>
+                                <input name="social_tumblr" class="input svelte-1rvr5aa" placeholder="tumblr" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="roblox.com/users/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="30.36 84.71 135.82 135.82" fill="#FFF" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #FFF);">
+                                    <path d="m59.06 84.709-28.7 107.116 107.115 28.701 28.702-107.116Zm32.445 55.499 18.825 5.044-5.299 19.775-18.825-5.044z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">roblox.com/users/</span>
+                                <input name="social_roblox" class="input svelte-1rvr5aa" placeholder="roblox" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="www.amazon.com/hz/wishlist/ls/" class="svelte-1rvr5aa">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" xml:space="preserve" fill="#DDD" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #DDD);">
+                                    <path d="M573.63 28.78c-.16 21.58-2.48 36.48-8.69 55.42-17.85 55.11-60.86 98.11-116.12 116.28l-13.35 4.35 13.2-.78c77.31-4.66 152.91 47.5 178.22 122.64l4.66 13.51.78-24.37c.47-19.71 1.55-27.48 4.66-39.74 15.37-58.06 60.24-106.03 116.74-125.12l13.2-4.35-23.75-.93c-28.57-.93-46.57-5.12-70.32-16.46-20.18-9.63-32.29-17.85-47.66-32.6-22.2-20.96-38.5-46.42-47.35-73.43L573.66 10v18.78zm26.39 96.72c14.13 21.42 40.21 36.17 64.27 36.17h10.25l-12.89 6.37c-26.86 13.04-42.54 35.86-46.26 66.91l-.93 9-5.28-11.02c-12.26-25.61-42.23-44.86-69.7-44.86h-7.76l12.42-6.05c26.24-13.04 42.85-37.26 45.33-66.6l.93-11.18 3.42 8.54c2.01 4.65 4.81 10.39 6.2 12.72zM830.71 136.52c-.31 33.69-16.3 67.38-41.92 87.87-11.95 9.78-23.91 16.46-35.86 20.49l-8.54 2.95 17.08.93c29.5 1.71 51.69 11.18 72.65 30.89 13.35 12.42 21.89 24.84 28.56 41.14l5.12 12.42v-10.87c.16-45.64 30.58-89.73 73.27-106.34l10.71-4.19-13.66-.93c-18.01-1.24-29.34-4.35-46.26-12.57-26.7-13.2-48.12-36.95-57.44-63.96l-3.73-10.71v12.88zm24.53 69.71c8.23 8.23 18.32 13.04 29.5 14.28l8.69.93-8.69 4.97c-4.66 2.64-10.87 7.45-13.66 10.71-6.05 6.83-12.42 19.87-12.73 25.46 0 2.17-.62 5.12-1.24 6.83-.93 2.33-1.55 1.71-4.04-3.57-3.57-8.07-15.84-19.56-24.84-23.6-3.88-1.71-10.56-3.57-14.9-4.04l-7.76-.93 8.23-4.5c4.5-2.48 10.25-6.36 12.57-8.69 6.06-5.9 13.35-21.27 14.59-31.05l.93-8.07 3.42 7.45c1.86 4.03 6.36 10.24 9.93 13.82zM723.44 309.15c-.16 24.84-16.61 50.14-40.05 61.63l-11.8 5.9 10.71.93c14.59 1.09 25.46 4.97 36.17 12.88 11.03 8.23 17.7 16.46 23.44 29.03l4.35 9.62.93-11.49c.47-6.37 2.33-15.37 4.19-20.18 6.52-16.77 22.04-32.91 37.88-39.28l8.69-3.57-9.94-.93c-26.08-2.48-47.82-17.39-59.15-40.67l-5.43-10.87v7zm23.75 47.35c4.35 2.17 9.47 3.88 11.02 3.88 2.33 0 1.71.78-2.17 3.42-7.92 5.43-13.97 13.97-15.21 21.42l-1.08 6.83-3.42-5.43c-3.88-6.83-11.95-13.2-18.32-14.59-9.16-2.02-9.31-2.33-2.8-6.37 6.83-4.04 14.44-16.46 14.44-23.75 0-3.42.62-2.95 4.66 3.57 3.57 5.43 6.83 8.23 12.88 11.02zM336.89 327.78c-86.16 7.76-144.37 48.9-163.62 115.5-5.12 17.54-5.28 24.68-.31 29.65 4.81 4.81 3.73 4.66 52.94 9.93 52.63 5.59 49.52 6.52 57.44-18.01 8.85-27.94 30.43-43.47 63.03-45.02 32.45-1.71 54.02 12.11 61.17 39.12 1.55 6.37 2.33 16.46 2.33 32.91 0 23.29 0 23.75-3.42 24.37-2.02.47-15.06 1.87-29.19 3.26-99.04 9.63-145 24.99-179.92 59.92-31.67 31.67-45.8 73.9-41.92 124.35 1.71 21.58 6.05 37.88 14.9 55.58 6.05 12.11 9.78 17.23 20.65 28.1 11.64 11.8 15.52 14.44 29.65 21.27 24.22 11.64 33.69 13.5 68.93 13.5 17.85-.15 33.22-.93 38.81-2.02 32.91-7.14 55.27-19.25 86.16-46.88l13.82-12.42 6.52 9.63c11.18 16.61 22.67 30.27 34 40.05 9.78 8.23 11.64 9.31 17.7 9.31 5.28 0 8.07-1.09 12.89-4.97 12.73-10.25 61.94-52.94 66.13-57.28 6.06-6.52 5.59-13.04-1.55-23.29-3.1-4.66-8.85-12.89-12.57-18.47-3.88-5.59-8.38-13.19-10.09-17.08-7.92-17.85-7.76-14.9-8.85-137.39-.93-108.2-1.24-115.66-4.19-128.85-7.92-34.46-23.91-58.22-51.23-75.91-34.49-22.19-89.14-33.52-140.21-28.86zm72.96 288.28c-.16 43.62-4.19 61.94-18.47 84.76-11.18 17.54-25.46 28.41-43.62 33.07-25.46 6.52-49.21-4.5-59.77-27.79-10.09-22.04-8.07-56.2 4.35-77.62 5.9-9.94 19.87-22.04 32.76-28.25 17.7-8.54 45.64-13.97 73.58-14.59l11.18-.16v30.58zM610.89 824.55c-30.74 4.81-66.75 24.06-56.66 30.27.93.62 10.55-.46 21.42-2.17 39.74-6.21 53.56-6.05 60.39.78 6.21 6.21 4.35 24.68-6.67 60.7-6.37 20.96-6.37 22.2-1.55 22.2 7.76 0 24.22-24.37 31.83-47.5 5.9-17.54 9-40.83 6.99-51.23-1.24-6.68-2.17-7.92-7.14-10.4-7.01-3.42-34.17-4.82-48.61-2.65z"></path>
+                                    <path d="M50 837.28c-4.19 4.19-1.71 8.38 14.13 23.6 72.65 70.32 151.21 111.77 239.38 126.21 24.37 3.88 81.66 3.88 105.56 0 74.21-12.42 149.65-46.57 192.03-87.09 9.16-8.69 10.56-10.71 10.56-15.52 0-4.19-.93-6.05-4.04-8.23-4.66-2.95-2.17-3.72-32.14 9.47-102.61 45.17-213.3 56.67-322.75 33.53-62.56-13.19-125.9-38.66-178.99-72.03-10.25-6.52-19.41-11.8-20.18-11.8-.92 0-2.47.78-3.56 1.86z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">www.amazon.com/hz/wishlist/ls/</span>
+                                <input name="social_amazon_wishlist" class="input svelte-1rvr5aa" placeholder="amazon_wishlist" value="">
+                            </div>
+                        </div>
+                        <div class="social-input-container svelte-1rvr5aa">
+                            <a title="onlyfans.com/" class="svelte-1rvr5aa">
+                                <svg viewBox="-20.62 0.53 820.42 555.49" xmlns="http://www.w3.org/2000/svg" fill="#00aeef" height="24" width="24" style="filter: drop-shadow(0 0 0.2rem #00aeef);">
+                                    <path d="M266.82.53c35 0 69.65 6.91 101.98 20.34s61.71 33.11 86.45 57.93c24.75 24.81 44.37 54.27 57.77 86.7a267.919 267.919 0 0 1 20.29 102.27c0 108.09-64.93 205.53-164.51 246.89s-214.2 18.5-290.41-57.93C2.18 380.3-20.62 265.36 20.62 165.5 61.87 65.64 159.04.53 266.82.53zm0 347.4c10.5.01 20.9-2.05 30.61-6.07s18.52-9.93 25.95-17.38 13.31-16.29 17.33-26.02a80.365 80.365 0 0 0 6.06-30.7c0-32.43-19.48-61.66-49.35-74.07s-64.26-5.55-87.12 17.38-29.7 57.41-17.33 87.37 41.53 49.49 73.86 49.49z"></path>
+                                    <path d="M566.35 200.96c67.71 19.54 147.63 0 147.63 0-23.19 101.55-96.75 165.15-202.81 172.89a266.766 266.766 0 0 1-40.48 65.86 266.208 266.208 0 0 1-57.62 51.43c-21.6 14.24-45.15 25.25-69.92 32.68s-50.48 11.19-76.33 11.18l79.95-254.81C428.95 18.28 471.08.54 665.98.54H799.8c-22.38 98.88-99.54 174.41-233.44 200.42z"></path>
+                                </svg>
+                            </a>
+                            <div class="input-link-preview svelte-1rvr5aa">
+                                <span class="svelte-1rvr5aa">onlyfans.com/</span>
+                                <input name="social_onlyfans" class="input svelte-1rvr5aa" placeholder="onlyfans" value="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group svelte-1rvr5aa">
+                        <label for="effects" class="label title svelte-1rvr5aa">Effects</label>
+                        <div class="effect-input-container svelte-1rvr5aa">
+                            <input name="effect_snow" class="input-checkbox svelte-1rvr5aa" type="checkbox" checked>
+                            <label for="effect_snow" class="label svelte-1rvr5aa">snow</label>
+                        </div>
+                        <div class="effect-input-container svelte-1rvr5aa">
+                            <input name="effect_monochrome_icons" class="input-checkbox svelte-1rvr5aa" type="checkbox" checked>
+                            <label for="effect_monochrome_icons" class="label svelte-1rvr5aa">monochrome icons</label>
+                        </div>
+                    </div>
+                    <div class="btn-wrapper svelte-1rvr5aa">
+                        <button type="submit" class="btn-submit svelte-1rvr5aa">Save Changes</button>
+                        <form action="/logout" method="POST">
+                            <button type="submit" class="btn-submit svelte-1rvr5aa">Logout</button>
+                        </form>
+                    </div>
+                    <div class="user-data svelte-1rvr5aa">
+                        <p class="svelte-1rvr5aa">
+                            Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c5a8b0b7b5adbcb1f4f7f0f1f785a2a8a4aca9eba6aaa8">[email &#160;protected]</a>
+                        </p>
+                        <p class="svelte-1rvr5aa">UserID: b7578a4a-bb4b-4ba3-9db1-1f5579636843</p>
+                        <p class="svelte-1rvr5aa">Created at: 2024-05-28T19:58:46.434477+00:00</p>
+                    </div>
+                </form>
+            </main>
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+            <script>
+                {
+                    __sveltekit_czgi46 = {
+                        base: new URL(".",location).pathname.slice(0, -1),
+                        env: {
+                            "PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNteHBoZWRhcnl5Z2h6ZWZwemFkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDk0MDQyMzQsImV4cCI6MjAyNDk4MDIzNH0.PGrRhOxDTIvd6ml7Y1SxHs87CrjVbJ2vSdc33RJ14R8",
+                            "PUBLIC_SUPABASE_URL": "https://smxphedaryyghzefpzad.supabase.co"
+                        }
+                    };
+
+                    const element = document.currentScript.parentElement;
+
+                    const data = [{
+                        "type": "data",
+                        "data": {
+                            session: {
+                                expires_at: 1716940762,
+                                expires_in: 1847,
+                                token_type: "bearer",
+                                access_token: "eyJhbGciOiJIUzI1NiIsImtpZCI6IjQrTlcxNjRuNzc2cmJzNFEiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzE2OTQwNzYyLCJpYXQiOjE3MTY5MzcxNjIsImlzcyI6Imh0dHBzOi8vc214cGhlZGFyeXlnaHplZnB6YWQuc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6ImI3NTc4YTRhLWJiNGItNGJhMy05ZGIxLTFmNTU3OTYzNjg0MyIsImVtYWlsIjoibXVycGh5dDEyNTQyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWwiOiJtdXJwaHl0MTI1NDJAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImI3NTc4YTRhLWJiNGItNGJhMy05ZGIxLTFmNTU3OTYzNjg0MyJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzE2OTI2MzQ5fV0sInNlc3Npb25faWQiOiIxNjBjMjAxNy1lYjA2LTQ5YTctYWQ2OS1iNThiYzFlYjMyZjYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.AcWaSYpPyyWA8qoi_mSqIPw75PkjIpuTP6w6U0PhFw4",
+                                refresh_token: "5BoQHNRQmXtmj2K-HHLZsQ",
+                                provider_token: null,
+                                provider_refresh_token: null,
+                                user: {
+                                    id: "b7578a4a-bb4b-4ba3-9db1-1f5579636843",
+                                    aud: "authenticated",
+                                    iat: 1716937162,
+                                    iss: "https://smxphedaryyghzefpzad.supabase.co/auth/v1",
+                                    email: "murphyt12542@gmail.com",
+                                    phone: "",
+                                    app_metadata: {
+                                        provider: "email",
+                                        providers: ["email"]
+                                    },
+                                    user_metadata: {
+                                        email: "murphyt12542@gmail.com",
+                                        email_verified: false,
+                                        phone_verified: false,
+                                        sub: "b7578a4a-bb4b-4ba3-9db1-1f5579636843"
+                                    },
+                                    role: "authenticated",
+                                    aal: "aal1",
+                                    amr: [{
+                                        method: "password",
+                                        timestamp: 1716926349
+                                    }],
+                                    session_id: "160c2017-eb06-49a7-ad69-b58bc1eb32f6",
+                                    is_anonymous: false
+                                }
+                            }
+                        },
+                        "uses": {}
+                    }, {
+                        "type": "data",
+                        "data": {
+                            status: 200,
+                            body: {
+                                slug: "",
+                                title: "",
+                                description: "",
+                                avatar: "",
+                                background: "",
+                                music: "",
+                                discord_presence: "",
+                                socials: [],
+                                effects: [],
+                                created_at: "",
+                                banned: false
+                            }
+                        },
+                        "uses": {}
+                    }];
+
+                    Promise.all([import("./_app/immutable/entry/start.af1a2051.js"), import("./_app/immutable/entry/app.1546456a.js")]).then(([kit,app])=>{
+                        kit.start(app, element, {
+                            node_ids: [0, 4],
+                            data,
+                            form: null,
+                            error: null
+                        });
+                    }
+                    );
+                }
+            </script>
+        </div>
+    </body>
+</html>
